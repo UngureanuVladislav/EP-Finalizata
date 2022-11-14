@@ -1,0 +1,253 @@
+body {
+    margin-top: 20px;
+    font-family: 'Times NewRoman';
+    min-height: 100vh;
+    background: url("../new_background_1.jpg") center no-repeat;
+    background-size: cover;
+    margin-left: 150px;
+    
+}
+
+
+/*container*/
+
+.container {
+    max-width: 1280px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px auto;
+    padding: 0;
+    float: left;
+}
+
+.header-logo {
+    position: relative;
+    margin-bottom: 20px;
+    padding: 15px 29px 15px 15px;
+    background: #f8f8f8;
+    font-weight: 900;
+    color: #666;
+    text-align: center;
+    width: 366px;
+}
+
+.nav {
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: none;
+    text-transform: uppercase;
+    transition: color .1s linear;
+}
+
+.nav_link {
+    background-color: #25975A;
+    margin-bottom: 20px;
+    padding: 15px 25px 9px 15px;
+    display: inline-block;
+    vertical-align: top;
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    position: relative;
+}
+
+.search{
+    display: flex;
+    margin-top: 20px;
+    
+}
+.search span{
+    display: flex;
+    align-items: center;
+    
+}
+.search input{
+    width: 100%;
+    height: 40px;
+    
+}
+.search span svg{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    z-index: 1;
+    margin-left: 10px;
+    
+}
+
+.selector {
+    display: flex;
+    flex-direction: column;
+}
+
+.grupp {
+    background-color: white;
+}
+#Groupa {
+    border: 1px solid white;
+    margin-top: 20px;
+    width: 407px;
+    height: 100px;
+    
+}
+
+#group {
+    margin-top: 20px;
+    width: 410px;
+    height: 40px;
+    
+    color: #666;
+}
+
+.lectiile_sapt {
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+    border: 1px black solid;
+    display: grid;
+    background-color: white;
+    grid-template-columns: 100px repeat(7, 1fr);
+    grid-template-rows: repeat(8, 25px);
+}
+
+.lectiile_sapt div {
+    border: 1px grey solid;
+}
+
+.colore {
+    background-color: #25975A;
+}
+#ST-discrete {
+    color: white;
+    background-color: rgb(242, 214, 248);
+}
+#Matem {
+    color: white;
+    background-color:  rgb(118, 189, 73);
+}
+#web {
+    color: white;
+    background-color: rgb(163, 241, 188);;
+}
+#Bazele-prog {
+    color: white;
+    background-color: rgb(255, 0, 128);;
+
+}
+#Proiect-Web {
+    color: white;
+    background-color: rgb(0, 128, 0);;
+}
+#Ed-fizica {
+    color: white;
+    background-color: black;
+}
+#engleza {
+    color: white;
+    background-color: rgb(64, 32, 0);;
+}
+#Apl-gener {
+    color: white;
+    background-color:  rgb(242, 214, 248);
+}
+#Str-discrete {
+    color: white;
+    background-color: rgb(242, 214, 248);;
+}
+
+#legenda {
+    
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+    margin-left: -10px;
+    display: grid;
+    font-size: 12px;
+    grid-template-columns: 150px 75px 80px 100px;
+    grid-template-rows: repeat(2, 30px);
+}
+
+
+#descarca{
+    background-color: #25975A;
+    border: 1px solid white;
+}
+.student{
+    display: flex;
+    align-items: center;
+    
+    
+}
+.student a{
+    color: #e6e6e6;
+    text-decoration: none;
+}
+.student img{
+    width: 50px;
+}
+#examene {
+    background-color: #f0506e;
+    
+}
+#timp-lucru {
+    border: 1px solid white;
+    background-color: #edfbf6;
+    color: #32d296;
+    
+    padding: 15px 29px 15px 15px;
+    width: 360px;
+    height: 20px;
+}
+
+
+
+/* container 2 */ 
+.container2 {
+   
+    float: right;
+    margin-right: 150px;
+}
+
+#orarul-timpul img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 120px;
+    margin-top: 5px;
+  }
+  h4 {
+    color: white;
+    font-weight: 900;
+    font-size: 1.25rem;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+  .obiectele-orarul {
+    display: grid;
+    grid-template-columns: 140px 1fr;
+    grid-template-rows: repeat(7, 1fr);
+    background-color: white;
+    margin-bottom: 10px;
+    width: 700px;
+    
+  }
+  .obiectele-orarul div {
+    text-align: center;
+    padding: 20px;
+  }
+  .left-part:hover {
+    background-color: antiquewhite;
+    color: black;
+  }
+  .left-part {
+    color: white;
+    background-color: #25975a;
+    border: 1px white solid;
+  }
+  .right-part{
+    border-bottom: 1px gray solid;
+    border-top: 1px gray solid;
+    border-right: 1px gray solid;
+    
+  }
